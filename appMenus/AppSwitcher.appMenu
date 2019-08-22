@@ -65,10 +65,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Bot</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>BotConnection</name>
         <type>ConnectedApp</type>
     </appMenuItems>
