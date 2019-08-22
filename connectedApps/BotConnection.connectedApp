@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
-    <contactEmail>ssanz@copado.com</contactEmail>
+    <contactEmail>qa-automation@copa.do</contactEmail>
     <label>BotConnection</label>
     <oauthConfig>
         <callbackUrl>https://login.salesforce.com/services/oauth2/success</callbackUrl>
-        <consumerKey>3MVG9IHf89I1t8hoijFQpvxiYfiAwgKue0pqZfLcyGTeRjfKEXThB_.ySiwf_NY4_oU2UMj_hbbEUY0VmTYrV</consumerKey>
+        <consumerKey>3MVG9IHf89I1t8hremocaMAPrhooT4T2EbiyjZQWkEomteEA_CyVTRuvg5gjfqgQlCdwgQ54hS9bigtWf9SJU</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <scopes>Full</scopes>
     </oauthConfig>

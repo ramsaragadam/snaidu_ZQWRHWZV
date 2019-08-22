@@ -41,7 +41,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>BOT_field1__c</field>
+                <field>field_text__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
