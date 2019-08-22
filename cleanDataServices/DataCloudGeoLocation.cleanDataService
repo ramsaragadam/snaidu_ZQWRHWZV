@@ -109,6 +109,41 @@
         <description>Adds geocodes for Mailing Address</description>
         <developerName>Contact_Geo_Clean_Rule_for_Mailing_Address</developerName>
         <fieldMappings>
+            <SObjectType>Lead</SObjectType>
+            <developerName>Lead_Geo_Clean_Rule_for_AddressOutputMapping</developerName>
+            <fieldMappingRows>
+                <SObjectType>Lead</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>GeoAccuracyNum</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>GeocodeAccuracy</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <fieldMappingRows>
+                <SObjectType>Lead</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>Latitude</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>Latitude</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <fieldMappingRows>
+                <SObjectType>Lead</SObjectType>
+                <fieldMappingFields>
+                    <dataServiceField>Longitude</dataServiceField>
+                    <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
+                    <priority>1</priority>
+                </fieldMappingFields>
+                <fieldName>Longitude</fieldName>
+                <mappingOperation>Autofill</mappingOperation>
+            </fieldMappingRows>
+            <masterLabel>LeadOutputMapping</masterLabel>
+        </fieldMappings>
+        <fieldMappings>
             <SObjectType>DatacloudAddress</SObjectType>
             <developerName>Contact_Geo_Clean_Rule_for_Mailing_AddressInputMapping</developerName>
             <fieldMappingRows>
@@ -198,7 +233,7 @@
             </fieldMappingRows>
             <masterLabel>ContactOutputMapping</masterLabel>
         </fieldMappings>
-        <masterLabel>Geocodes for Contact Mailing Address</masterLabel>
+        <masterLabel>Geocodes for Lead Address</masterLabel>
         <matchRule>DatacloudAddressMatchRule</matchRule>
         <sourceSobjectType>DatacloudAddress</sourceSobjectType>
         <status>Inactive</status>
