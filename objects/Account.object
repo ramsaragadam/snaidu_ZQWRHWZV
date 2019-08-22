@@ -264,18 +264,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>BOT_field1__c</fullName>
-        <description>text desc</description>
-        <externalId>false</externalId>
-        <inlineHelpText>help text</inlineHelpText>
-        <label>BOT_field1</label>
-        <length>50</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -503,6 +491,18 @@
     <fields>
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>field_text__c</fullName>
+        <description>aaaaaa</description>
+        <externalId>false</externalId>
+        <inlineHelpText>aaaaa</inlineHelpText>
+        <label>field_text</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
