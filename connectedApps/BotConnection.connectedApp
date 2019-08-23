@@ -4,7 +4,7 @@
     <label>BotConnection</label>
     <oauthConfig>
         <callbackUrl>https://login.salesforce.com/services/oauth2/success</callbackUrl>
-        <consumerKey>3MVG9IHf89I1t8hremocaMAPrhooT4T2EbiyjZQWkEomteEA_CyVTRuvg5gjfqgQlCdwgQ54hS9bigtWf9SJU</consumerKey>
+        <consumerKey>3MVG9IHf89I1t8hoe877MbDjCxdh6rxEzNpC.epJXrwT.wHRUXG2903W_EvE7hCkDDk43aTLL5KSrTjMuTxU7</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <scopes>Full</scopes>
     </oauthConfig>
